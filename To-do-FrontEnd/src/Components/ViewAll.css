@@ -1,0 +1,51 @@
+/* Container */
+.viewall-container {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    min-height: 100vh;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  /* Title */
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* To-Do Cards */
+  .todo-card {
+    background: white;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+  }
+  
+  .todo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Card Titles */
+  .todo-card h5 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2575fc;
+  }
+  
+  /* Priority Text */
+  .priority {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6a11cb;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .viewall-container {
+      padding: 30px 10px;
+    }
+  }
+  
